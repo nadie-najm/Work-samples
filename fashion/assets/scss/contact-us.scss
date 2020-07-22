@@ -101,7 +101,7 @@ body {
         top: -20px;
       }
 
-      .fa-envelope{
+      .fa-envelope {
         top: 5px;
       }
 
@@ -153,14 +153,17 @@ body {
 
     form {
 
-      .form-group{
+      .form-group {
         margin-top: 30px;
-        label{
+
+        label {
           font-weight: 600;
         }
-        .form-control{
+
+        .form-control {
           transition: all .3s ease-in-out;
-          &:focus{
+
+          &:focus {
             border: 1px solid #ced4da;
             box-shadow: none;
             background-color: #F5F6F6;
@@ -173,7 +176,8 @@ body {
         width: 30%;
         color: white;
         font-weight: 900;
-        &:hover{
+
+        &:hover {
           background-color: black;
           color: #fff;
         }
@@ -232,25 +236,101 @@ body {
 }
 
 
+//modal
+
+
+.modal_of_sign_in {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: fixed;
+  top: 0;
+
+  .modal_box {
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 70px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: second_font;
+
+    .modal_content {
+      padding: 50px;
+
+      .header_of_modal {
+        height: 70px;
+
+        .btn_of_close {
+          border: none;
+          background-color: transparent;
+          &:focus{
+            outline: none;
+          }
+          .close_icon {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+        }
+
+        .title_of_modal {
+          font-size: 1.5rem;
+        }
+      }
+
+      form{
+        .form-group{
+          label{
+            font-weight: 600;
+          }
+          .form-control{
+            transition: all 0.3s ease-in-out;
+            &:focus{
+              border: 1px solid #ced4da;
+              box-shadow: none;
+              background-color: #F5F6F6;
+            }
+          }
+        }
+        .btn_submit_style{
+          width: 100%;
+          font-weight: 500;
+          background-color: #CAA661;
+          color: white;
+          font-size: 1.3rem;
+          margin-top: 30px;
+          transition: all 0.3s ease-in-out;
+          &:hover{
+            background-color: black;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 @media only screen and (max-width: 1200px) {
   .map_box_contact_us .contact_info_box .info_box .fa-clock {
     top: -120px;
   }
 
-  .map_box_contact_us .contact_info_box .info_box .fa-phone-alt{
+  .map_box_contact_us .contact_info_box .info_box .fa-phone-alt {
     top: -13px;
   }
 
 }
 
 @media only screen and (max-width: 992px) {
-  .map_box_contact_us .contact_info_box .info_box .fa-map-marker-alt{
-    top:-55px;
+  .map_box_contact_us .contact_info_box .info_box .fa-map-marker-alt {
+    top: -55px;
   }
   .map_box_contact_us .contact_info_box .info_box .fa-clock {
     top: -163px;
   }
-  .map_box_contact_us .contact_info_box .info_box .fa-envelope{
+  .map_box_contact_us .contact_info_box .info_box .fa-envelope {
     top: -10px;
   }
 }
@@ -260,14 +340,14 @@ body {
   .footer_field .field_of_footer_part .border_r {
     border: none;
   }
-  .map_box_contact_us .contact_info_box .info_box .fa-map-marker-alt{
+  .map_box_contact_us .contact_info_box .info_box .fa-map-marker-alt {
     top: 4px;
   }
-  .map_box_contact_us .contact_info_box .info_box .fa-clock{
+  .map_box_contact_us .contact_info_box .info_box .fa-clock {
     top: -76px;
   }
   .map_box_contact_us .contact_info_box .info_box .fa-phone-alt,
-  .map_box_contact_us .contact_info_box .info_box .fa-envelope{
+  .map_box_contact_us .contact_info_box .info_box .fa-envelope {
     top: 5px;
   }
 
