@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b002e761-b204-47f7-bf0a-cf4eccc98e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact-us.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +74,7 @@
       <workItem from="1595054210623" duration="21288000" />
       <workItem from="1595080151957" duration="32095000" />
       <workItem from="1595329252215" duration="6048000" />
+      <workItem from="1595407163691" duration="5712000" />
     </task>
     <servers />
   </component>
