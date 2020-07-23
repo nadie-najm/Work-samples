@@ -41,10 +41,10 @@
                     </ul>
                     <ul class="navbar-nav pl-4 ml-auto">
                         <li class="nav-item">
-                            <button class="nav-link" id="sign_in">sign in</button>
+                            <button class="nav-link sign_in_up" id="sign_in">sign in</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">log in</a>
+                            <button class="nav-link sign_in_up" id="sign_up">sign up</button>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -58,14 +58,17 @@
     </div>
 </section>
 
-
-<section class="map_box_contact_us my-5">
-    <div class="container">
+<section class="map_box">
+    <div class="container-fluid">
         <div class="row my-5">
             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12674.632803011593!2d-122.0950951!3d37.421553!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1595338705426!5m2!1sen!2s"
                     frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" class="map_style">
             </iframe>
         </div>
+    </div>
+</section>
+<section class="map_box_contact_us my-5">
+    <div class="container">
         <div class="row">
             <div class="col-md-4 col-12">
                 <div class="contact_info_box">
@@ -231,6 +234,60 @@
         </div>
     </div>
 </section>
+
+<section class="modal_of_sign_up" id="modal_of_sign_up">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="modal_box">
+                    <div class="modal_content">
+                        <div class="header_of_modal">
+                            <h2 class="title_of_modal d-inline-block"> Sign In</h2>
+                            <button class="btn_of_close float-right"><i class="fal fa-times close_icon d-inline-block "></i></button>
+                        </div>
+                        <form>
+
+                            <div class="form-group">
+                                <label for="email_p">Your E-Mail *</label>
+                                <input type="email" class="form-control" id="email_p" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="Pass">Your Password *</label>
+                                <input type="email" class="form-control" id="Pass" aria-describedby="emailHelp">
+                            </div>
+
+
+
+                            <button type="submit" class="btn btn_submit_style">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="search_box">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="search_box_content">
+                    <div class="header_of_search_box">
+                        <button class="btn_of_close"><i class="fal fa-times close_icon"></i></button>
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Search.." name="search" class="form-control field_of_search">
+                        <button type="submit" class="btn_of_search px-0"><i class="fa fa-search search_icon"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 <script src="../assets/js/jquery.js"></script>
 <script src="../assets/js/popper.js"></script>

@@ -3,11 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="b002e761-b204-47f7-bf0a-cf4eccc98e7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/contact-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/gallery.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/gallery.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +90,8 @@
       <workItem from="1595054210623" duration="21288000" />
       <workItem from="1595080151957" duration="32095000" />
       <workItem from="1595329252215" duration="6048000" />
-      <workItem from="1595407163691" duration="9265000" />
+      <workItem from="1595407163691" duration="9519000" />
+      <workItem from="1595499976111" duration="5975000" />
     </task>
     <servers />
   </component>
@@ -99,9 +115,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594908823281" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595164032342">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595511101626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595164032342" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595511101626" />
   </component>
 </project>

@@ -82,16 +82,16 @@ li {
 .index_page .content_of_index .content_of_index_box_menu .menu_options:hover {
   transform: scale(1.1);
 }
-.index_page .footer_of_index .reg_field, .index_page .footer_of_index .log_field {
+.index_page .footer_of_index .sign_in_up {
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 20px;
   padding-top: 15px;
   font-size: 1.3rem;
   color: white;
   text-decoration: none;
   transition: all 0.2s ease-in;
 }
-.index_page .footer_of_index .reg_field:hover, .index_page .footer_of_index .log_field:hover {
+.index_page .footer_of_index .sign_in_up:hover {
   transform: scale(1.1);
 }
 .index_page .footer_of_index .social_media {
@@ -112,6 +112,11 @@ li {
 
 .show_menu_options {
   display: block;
+}
+
+.sign_in_up {
+  border: none;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 1200px) {

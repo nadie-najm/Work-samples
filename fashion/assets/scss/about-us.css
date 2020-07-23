@@ -41,6 +41,10 @@ body {
   font-size: 1.3rem;
   margin-right: 10px;
 }
+.box_of_main_ex_about_us .nav_bar_about_us .nav-item .nav-link:hover {
+  color: white;
+  transform: scale(1.1);
+}
 .box_of_main_ex_about_us .nav_bar_about_us .nav-item .navbar-light .navbar-toggler {
   border-color: white;
 }
@@ -238,6 +242,11 @@ body {
 }
 .footer_field .field_of_footer_part .fiel_for_social_media a:hover {
   text-decoration: none;
+}
+
+.sign_in_up {
+  border: none;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 1200px) {

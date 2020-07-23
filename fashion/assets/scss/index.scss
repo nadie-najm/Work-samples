@@ -104,9 +104,9 @@ li {
 
 
 
-      .reg_field, .log_field {
+      .sign_in_up {
         display: inline-block;
-        margin-right: 50px;
+        margin-right: 20px;
         padding-top: 15px;
         font-size: 1.3rem ;
         color: white;
@@ -139,6 +139,11 @@ li {
 }
 .show_menu_options{
   display: block;
+}
+
+.sign_in_up{
+  border: none;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 1200px) {

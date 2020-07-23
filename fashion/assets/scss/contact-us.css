@@ -46,11 +46,13 @@ body {
   padding-top: 2px;
 }
 
-.map_box_contact_us .map_style {
+.map_box .map_style {
   width: 100%;
-  height: 300px;
+  height: 500px;
   border: none;
+  margin-top: -112px;
 }
+
 .map_box_contact_us .contact_info_box {
   width: 90%;
   margin: auto;
@@ -238,6 +240,127 @@ body {
   color: #fff;
 }
 
+.modal_of_sign_up {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: fixed;
+  top: 0;
+}
+.modal_of_sign_up .modal_box {
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 130px;
+  background-color: white;
+  border-radius: 5px;
+  font-family: second_font;
+}
+.modal_of_sign_up .modal_box .modal_content {
+  padding: 50px;
+}
+.modal_of_sign_up .modal_box .modal_content .header_of_modal {
+  height: 70px;
+}
+.modal_of_sign_up .modal_box .modal_content .header_of_modal .btn_of_close {
+  border: none;
+  background-color: transparent;
+}
+.modal_of_sign_up .modal_box .modal_content .header_of_modal .btn_of_close:focus {
+  outline: none;
+}
+.modal_of_sign_up .modal_box .modal_content .header_of_modal .btn_of_close .close_icon {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.modal_of_sign_up .modal_box .modal_content .header_of_modal .title_of_modal {
+  font-size: 1.5rem;
+}
+.modal_of_sign_up .modal_box .modal_content form .form-group label {
+  font-weight: 600;
+}
+.modal_of_sign_up .modal_box .modal_content form .form-group .form-control {
+  transition: all 0.3s ease-in-out;
+}
+.modal_of_sign_up .modal_box .modal_content form .form-group .form-control:focus {
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  background-color: #F5F6F6;
+}
+.modal_of_sign_up .modal_box .modal_content form .btn_submit_style {
+  width: 100%;
+  font-weight: 500;
+  background-color: #CAA661;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.modal_of_sign_up .modal_box .modal_content form .btn_submit_style:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.search_box {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: fixed;
+  top: 0;
+}
+.search_box .search_box_content {
+  width: 90%;
+  margin: auto;
+}
+.search_box .search_box_content .header_of_search_box {
+  width: 100%;
+  text-align: right;
+  margin-top: 100px;
+}
+.search_box .search_box_content .header_of_search_box .btn_of_close {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  margin: 100px 0;
+  font-weight: 900;
+  color: white;
+}
+.search_box .search_box_content .header_of_search_box .btn_of_close:focus {
+  outline: none;
+}
+.search_box .search_box_content .field_of_search {
+  width: 80%;
+  height: 50.5px;
+  display: inline-block;
+  border-radius: 5px 0px 0px 5px;
+}
+.search_box .search_box_content .field_of_search:focus {
+  border: 1px solid #DDDDDD;
+  box-shadow: none;
+}
+.search_box .search_box_content .btn_of_search {
+  width: 19%;
+  height: 50px;
+  border: none;
+  background-color: #DDDDDD;
+  display: inline-block;
+  border-radius: 0px 5px 5px 0px;
+  position: relative;
+  right: 4px;
+}
+.search_box .search_box_content .btn_of_search:focus {
+  outline: none;
+}
+.search_box .search_box_content .btn_of_search .search_icon {
+  color: #4e555b;
+}
+
+.sign_in_up {
+  border: none;
+  background-color: transparent;
+}
+
 @media only screen and (max-width: 1200px) {
   .map_box_contact_us .contact_info_box .info_box .fa-clock {
     top: -120px;
@@ -245,6 +368,11 @@ body {
 
   .map_box_contact_us .contact_info_box .info_box .fa-phone-alt {
     top: -13px;
+  }
+
+  .modal_of_sign_in .modal_box {
+    width: 46%;
+    left: 27%;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -258,6 +386,16 @@ body {
 
   .map_box_contact_us .contact_info_box .info_box .fa-envelope {
     top: -10px;
+  }
+
+  .modal_of_sign_up .modal_box {
+    width: 55%;
+    left: 23%;
+  }
+
+  .modal_of_sign_in .modal_box {
+    width: 62%;
+    left: 19%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -276,6 +414,27 @@ body {
   .map_box_contact_us .contact_info_box .info_box .fa-phone-alt,
 .map_box_contact_us .contact_info_box .info_box .fa-envelope {
     top: 5px;
+  }
+
+  .modal_of_sign_up .modal_box {
+    width: 75%;
+    left: 12.5%;
+  }
+
+  .modal_of_sign_in .modal_box {
+    width: 80%;
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .modal_of_sign_up .modal_box {
+    width: 90%;
+    left: 5%;
+  }
+
+  .modal_of_sign_in .modal_box {
+    width: 90%;
+    left: 5%;
   }
 }
 

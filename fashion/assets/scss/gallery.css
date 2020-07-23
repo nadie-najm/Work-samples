@@ -107,6 +107,11 @@ li {
   text-decoration: none;
 }
 
+.sign_in_up {
+  border: none;
+  background-color: transparent;
+}
+
 @media only screen and (max-width: 991px) {
   .categories_of_gallery .box_of_categories_img .categorie_filter_layers .categorie_txt {
     font-size: 3rem;
