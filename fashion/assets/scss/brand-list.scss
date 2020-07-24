@@ -30,6 +30,8 @@ body {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8046568969384629) 0%, rgba(0, 0, 0, 0) 100%);
   width: 100%;
   font-family: second_font;
+  position: relative;
+  z-index: 1000;
 
   .nav-item {
     .nav-link {
@@ -53,6 +55,66 @@ body {
   .menu_icon {
     color: white;
     padding-top: 2px;
+
+  }
+}
+
+.swiper_slider{
+  margin-top: -65px;
+  .img_swiper_slider{
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.brand_list {
+  .article_list {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+
+    .img_article_main {
+      border-radius: 5px 5px 0px 0px;
+      width: 100%;
+      height: 220px;
+    }
+
+    .title_of_brand{
+      color: #CAA661;
+    }
+
+    .box_of_content_article {
+      padding: 20px;
+
+      .short_exp_article {
+        text-align: justify;
+
+      }
+
+      .writer_article , .views_article{
+          font-size: .8rem;
+        color: #6c757d;
+      }
+
+      .views_article{
+        position: absolute;
+        right: 22px;
+        bottom: 16px;
+
+      }
+
+      .btn_of_article{
+       border: 1px solid black;
+        &:hover{
+          border: 1px solid #CAA661;
+          color: #CAA661;
+        }
+      }
+
+    }
+
 
   }
 }
@@ -304,13 +366,13 @@ body {
       display: inline-block;
       border-radius: 5px 0px 0px 5px;
 
-      &:focus{
+      &:focus {
         border: 1px solid #DDDDDD;
         box-shadow: none;
       }
     }
 
-    .btn_of_search{
+    .btn_of_search {
       width: 19%;
       height: 50px;
       border: none;
@@ -319,11 +381,12 @@ body {
       border-radius: 0px 5px 5px 0px;
       position: relative;
       right: 4px;
+
       &:focus {
         outline: none;
       }
 
-      .search_icon{
+      .search_icon {
         color: #4e555b;
       }
     }
@@ -334,4 +397,33 @@ body {
 .sign_in_up {
   border: none;
   background-color: transparent;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+  }
+
+@media only screen and (max-width: 767px) {
+
+  .footer_field .field_of_footer_part .border_r {
+    border: none;
+  }
+
+  .swiper_slider .img_swiper_slider{
+    height: 80vh;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper_slider .img_swiper_slider{
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
 }
