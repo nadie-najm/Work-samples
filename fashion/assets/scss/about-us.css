@@ -427,6 +427,9 @@ body {
   border: none;
   background-color: transparent;
 }
+.sign_in_up:focus {
+  outline: none;
+}
 
 @media only screen and (max-width: 1200px) {
   .box_of_main_ex_about_us .img_box .img_about_us_fashion .img_sec_pic_m {

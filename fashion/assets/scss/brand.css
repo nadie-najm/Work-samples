@@ -46,103 +46,72 @@ body {
   padding-top: 2px;
 }
 
-.map_box .map_style {
+.header_of_article {
+  margin-top: -70px;
+}
+.header_of_article .img_of_header {
   width: 100%;
-  height: 500px;
-  border: none;
-  margin-top: -112px;
 }
 
-.map_box_contact_us .contact_info_box {
-  width: 90%;
-  margin: auto;
-}
-.map_box_contact_us .contact_info_box .title_of_box {
-  font-size: 1.6rem;
-  font-weight: 900;
-}
-.map_box_contact_us .contact_info_box .top_of_title {
-  width: 20px;
-  height: 2px;
-  border-radius: 10px;
-  background-color: #CAA661;
-  display: block;
-  margin: 20px 0;
-}
-.map_box_contact_us .contact_info_box .info_box {
-  margin-top: 30px;
-}
-.map_box_contact_us .contact_info_box .info_box .icons_info_style {
-  font-size: 2rem;
-  color: #CECFD0;
+.article_content .article_exp {
+  box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  width: 100%;
   position: relative;
+  top: -200px;
+  background-color: white;
+  border-radius: 5px;
 }
-.map_box_contact_us .contact_info_box .info_box .fa-clock {
-  top: -105px;
+.article_content .article_exp .header_of_article_content {
+  text-align: center;
 }
-.map_box_contact_us .contact_info_box .info_box .fa-map-marker-alt {
-  top: -20px;
+.article_content .article_exp .header_of_article_content .title_of_article {
+  font-family: second_font;
+  padding-top: 50px;
 }
-.map_box_contact_us .contact_info_box .info_box .fa-envelope {
-  top: 5px;
-}
-.map_box_contact_us .contact_info_box .info_box .text_box_info {
-  width: 70%;
-  top: 20px;
-  position: relative;
-  left: 10px;
-}
-.map_box_contact_us .contact_info_box .info_box .text_box_info .title_of_info {
-  font-size: 1rem;
-  font-weight: 900;
-}
-.map_box_contact_us .contact_info_box .info_box .text_box_info .exp_of_info {
+.article_content .article_exp .header_of_article_content .small_text_exp {
   font-size: 0.9rem;
   color: #6c757d;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us {
-  width: 90%;
-  margin: auto;
-}
-.map_box_contact_us .form_feedback_from_contact_with_us .title_of_box {
-  font-size: 1.6rem;
-  font-weight: 900;
-}
-.map_box_contact_us .form_feedback_from_contact_with_us .top_of_title {
-  width: 20px;
+.article_content .article_exp .header_of_article_content .line_bot {
   height: 2px;
-  border-radius: 10px;
+  width: 20%;
+  margin: 30px auto;
   background-color: #CAA661;
-  display: block;
-  margin: 20px 0;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us .exp_title_of_feedback {
-  font-size: 0.8rem;
-  color: #6c757d;
+.article_content .article_exp .header_of_article_content .writer_info .fa-money-check-edit, .article_content .article_exp .header_of_article_content .writer_info .fa-calendar-day {
+  color: #CAA661;
+  padding-right: 10px;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us form .form-group {
-  margin-top: 30px;
+.article_content .article_exp .header_of_article_content .writer_info .fa-money-check-edit .name_of_writer, .article_content .article_exp .header_of_article_content .writer_info .fa-calendar-day .name_of_writer {
+  margin-left: 10px;
+  padding-right: 10px;
+  color: #4e555b;
+  border-right: 1px solid #4e555b;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us form .form-group label {
-  font-weight: 600;
+.article_content .article_exp .header_of_article_content .writer_info .fa-money-check-edit .date_of_write, .article_content .article_exp .header_of_article_content .writer_info .fa-calendar-day .date_of_write {
+  color: #4e555b;
+  padding-left: 10px;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us form .form-group .form-control {
-  transition: all 0.3s ease-in-out;
+.article_content .article_exp .content_of_ex_text_img_box {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 50px;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us form .form-group .form-control:focus {
-  border: 1px solid #ced4da;
-  box-shadow: none;
-  background-color: #F5F6F6;
+.article_content .article_exp .content_of_ex_text_img_box .part_1_text::first-letter, .article_content .article_exp .content_of_ex_text_img_box .part_2_text::first-letter, .article_content .article_exp .content_of_ex_text_img_box .part_3_text::first-letter {
+  color: #CAA661;
+  font-weight: bold;
+  font-size: 70px;
+  float: left;
+  line-height: 60px;
+  padding-right: 8px;
+  margin-top: -3px;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us form .btn_submit_style {
-  background-color: #CAA661;
-  width: 30%;
-  color: white;
-  font-weight: 900;
+.article_content .article_exp .content_of_ex_text_img_box .pic_and_text .pic_behind_text {
+  width: 100%;
 }
-.map_box_contact_us .form_feedback_from_contact_with_us form .btn_submit_style:hover {
-  background-color: black;
-  color: #fff;
+.article_content .article_exp .content_of_ex_text_img_box .img_brand_article {
+  width: 100%;
 }
 
 .footer_field {
@@ -365,81 +334,4 @@ body {
   outline: none;
 }
 
-@media only screen and (max-width: 1200px) {
-  .map_box_contact_us .contact_info_box .info_box .fa-clock {
-    top: -120px;
-  }
-
-  .map_box_contact_us .contact_info_box .info_box .fa-phone-alt {
-    top: -13px;
-  }
-
-  .modal_of_sign_in .modal_box {
-    width: 46%;
-    left: 27%;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .map_box_contact_us .contact_info_box .info_box .fa-map-marker-alt {
-    top: -55px;
-  }
-
-  .map_box_contact_us .contact_info_box .info_box .fa-clock {
-    top: -163px;
-  }
-
-  .map_box_contact_us .contact_info_box .info_box .fa-envelope {
-    top: -10px;
-  }
-
-  .modal_of_sign_up .modal_box {
-    width: 55%;
-    left: 23%;
-  }
-
-  .modal_of_sign_in .modal_box {
-    width: 62%;
-    left: 19%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .footer_field .field_of_footer_part .border_r {
-    border: none;
-  }
-
-  .map_box_contact_us .contact_info_box .info_box .fa-map-marker-alt {
-    top: 4px;
-  }
-
-  .map_box_contact_us .contact_info_box .info_box .fa-clock {
-    top: -76px;
-  }
-
-  .map_box_contact_us .contact_info_box .info_box .fa-phone-alt,
-.map_box_contact_us .contact_info_box .info_box .fa-envelope {
-    top: 5px;
-  }
-
-  .modal_of_sign_up .modal_box {
-    width: 75%;
-    left: 12.5%;
-  }
-
-  .modal_of_sign_in .modal_box {
-    width: 80%;
-    left: 10%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .modal_of_sign_up .modal_box {
-    width: 90%;
-    left: 5%;
-  }
-
-  .modal_of_sign_in .modal_box {
-    width: 90%;
-    left: 5%;
-  }
-}
-
-/*# sourceMappingURL=contact-us.css.map */
+/*# sourceMappingURL=brand.css.map */

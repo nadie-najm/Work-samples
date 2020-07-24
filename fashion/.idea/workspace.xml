@@ -6,16 +6,18 @@
       <change beforePath="$PROJECT_DIR$/assets/scss/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/gallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/gallery.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/gallery.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/home.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
       <workItem from="1595407163691" duration="9519000" />
       <workItem from="1595499976111" duration="5975000" />
       <workItem from="1595513165946" duration="95000" />
-      <workItem from="1595576310811" duration="244000" />
+      <workItem from="1595576310811" duration="8620000" />
     </task>
     <servers />
   </component>

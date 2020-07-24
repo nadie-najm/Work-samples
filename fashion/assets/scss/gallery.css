@@ -290,6 +290,9 @@ li {
   border: none;
   background-color: transparent;
 }
+.sign_in_up:focus {
+  outline: none;
+}
 
 @media only screen and (max-width: 991px) {
   .categories_of_gallery .box_of_categories_img .categorie_filter_layers .categorie_txt {

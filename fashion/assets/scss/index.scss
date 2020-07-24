@@ -299,9 +299,12 @@ li {
   display: block;
 }
 
-.sign_in_up{
+.sign_in_up {
   border: none;
   background-color: transparent;
+  &:focus{
+    outline: none;
+  }
 }
 
 @media only screen and (max-width: 1200px) {

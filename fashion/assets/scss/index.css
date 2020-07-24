@@ -242,6 +242,9 @@ li {
   border: none;
   background-color: transparent;
 }
+.sign_in_up:focus {
+  outline: none;
+}
 
 @media only screen and (max-width: 1200px) {
   .first_text_about_uniti {
