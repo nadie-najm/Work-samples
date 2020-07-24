@@ -143,6 +143,231 @@ li {
 
 }
 
+//modal
+
+
+.modal_of_sign_in {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: fixed;
+  top: 0;
+
+  .modal_box {
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 70px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: second_font;
+
+    .modal_content {
+      padding: 50px;
+
+      .header_of_modal {
+        height: 70px;
+
+        .btn_of_close {
+          border: none;
+          background-color: transparent;
+
+          &:focus {
+            outline: none;
+          }
+
+          .close_icon {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+        }
+
+        .title_of_modal {
+          font-size: 1.5rem;
+        }
+      }
+
+      form {
+        .form-group {
+          label {
+            font-weight: 600;
+          }
+
+          .form-control {
+            transition: all 0.3s ease-in-out;
+
+            &:focus {
+              border: 1px solid #ced4da;
+              box-shadow: none;
+              background-color: #F5F6F6;
+            }
+          }
+        }
+
+        .btn_submit_style {
+          width: 100%;
+          font-weight: 500;
+          background-color: #CAA661;
+          color: white;
+          font-size: 1.3rem;
+          margin-top: 30px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background-color: black;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal_of_sign_up {
+
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: fixed;
+  top: 0;
+
+  .modal_box {
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 130px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: second_font;
+
+    .modal_content {
+      padding: 50px;
+
+      .header_of_modal {
+        height: 70px;
+
+        .btn_of_close {
+          border: none;
+          background-color: transparent;
+
+          &:focus {
+            outline: none;
+          }
+
+          .close_icon {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+        }
+
+        .title_of_modal {
+          font-size: 1.5rem;
+        }
+      }
+
+      form {
+        .form-group {
+          label {
+            font-weight: 600;
+          }
+
+          .form-control {
+            transition: all 0.3s ease-in-out;
+
+            &:focus {
+              border: 1px solid #ced4da;
+              box-shadow: none;
+              background-color: #F5F6F6;
+            }
+          }
+        }
+
+        .btn_submit_style {
+          width: 100%;
+          font-weight: 500;
+          background-color: #CAA661;
+          color: white;
+          font-size: 1.3rem;
+          margin-top: 30px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background-color: black;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.search_box {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: fixed;
+  top: 0;
+
+  .search_box_content {
+    width: 90%;
+    margin: auto;
+
+    .header_of_search_box {
+      width: 100%;
+      text-align: right;
+      margin-top: 100px;
+
+      .btn_of_close {
+        background-color: transparent;
+        border: none;
+        font-size: 3rem;
+        margin: 100px 0;
+        font-weight: 900;
+        color: white;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+    }
+
+    .field_of_search {
+      width: 80%;
+      height: 50.5px;
+      display: inline-block;
+      border-radius: 5px 0px 0px 5px;
+
+      &:focus{
+        border: 1px solid #DDDDDD;
+        box-shadow: none;
+      }
+    }
+
+    .btn_of_search{
+      width: 19%;
+      height: 50px;
+      border: none;
+      background-color: #DDDDDD;
+      display: inline-block;
+      border-radius: 0px 5px 5px 0px;
+      position: relative;
+      right: 4px;
+      &:focus {
+        outline: none;
+      }
+
+      .search_icon{
+        color: #4e555b;
+      }
+    }
+  }
+
+}
+
 .sign_in_up{
   border: none;
   background-color: transparent;
