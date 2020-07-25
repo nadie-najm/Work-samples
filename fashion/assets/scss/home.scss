@@ -26,17 +26,20 @@ li {
   background-image: url("../img/landi_bg.jpg");
   background-size: cover;
   position: relative;
+  overflow: hidden;
   font-family: second_font;
 
   .particleground  {
     width: 100%;
     height: 100vh;
     background: linear-gradient(43deg, rgba(212, 145, 162, 0.511) 0%, rgba(214, 189, 140, 0.502) 68%, rgba(182, 147, 147, 0.491) 100%);
+    position: relative;
 
 
     .navbar-light .navbar-toggler{
       border-color: white;
     }
+
     .menu_icon{
       color: white;
       padding-top: 2px;
@@ -63,47 +66,48 @@ li {
       }
     }
 
+
     .box_of_fashion{
       position: absolute;
-      top: 12%;
-      width: 600px;
-      left: 70px;
-    }
-    .box_of_details_fashion{
+      top: 20vh;
+      width: 40%;
+      text-align: center;
+      margin-left: 10%;
 
       .logo_of_fashion{
-        width: 66%;
-        margin-left: 20%;
-        margin-bottom: 30px;
+        width: 60%;
       }
 
       .txt_of_landing{
-        color: rgb(255, 243, 152);
+        margin-right: 2.5rem;
         font-size: 1.5rem;
-        text-align: center;
-        font-weight: 900;
+        color: rgb(255, 243, 152);
+        margin-top: 20px;
 
-        li{
-          margin-bottom: 15px;
-        }
       }
 
-      .landing_btn{
-        width: 400px;
-       margin: auto;
-        background-color: transparent;
-        border-radius: 4px;
-        border: 1px solid rgb(255, 255, 255);
-        color: white;
-        font-size:  1.5rem ;
-        transition: all linear 0.1s;
+      .field_of_btn_landing{
+        padding-left: 50px;
 
-        &:hover{
-          transform: scale(1.07);
+        .landing_btn{
+          width: 80%;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+          border-radius: 5px;
+          transition: all 0.3s ease-in-out;
+
+          &:focus{
+            outline: none;
+          }
+
+          &:hover{
+            transform: scale(1.05);
+          }
         }
-
       }
     }
+
   }
 
 }
@@ -140,7 +144,6 @@ li {
 
         .name_of_model {
           font-family: second_font;
-          padding-top: 20px;
         }
 
         .inf_of_brand_slider {
@@ -603,8 +606,9 @@ li {
   .model_of_slider .swiper-container .swiper-wrapper .swiper-slide .inf_of_brand_slider {
     font-size: .9rem;
   }
-  .model_of_slider .swiper-container .swiper-wrapper .swiper-slide .brand_slider_img {
-    height: 68vh;
+
+  .header_of_home_page .particleground .box_of_fashion{
+    width: 50%;
   }
 
 }
@@ -647,24 +651,12 @@ li {
   .model_of_slider .title_box {
     padding-left: 60px;
   }
+
   .header_of_home_page .particleground .box_of_fashion{
-    left: 20%;
-    top: 10%;
-    width: 550px;
-    font-size: 1rem;
+    width: 70%;
+    left: 5%;
   }
 
-  .header_of_home_page .particleground{
-    height: 85vh;
-  }
-  .header_of_home_page .particleground .box_of_details_fashion .logo_of_fashion{
-    width: 250px;
-    margin-left: 30%;
-  }
-
-  .header_of_home_page .particleground .box_of_details_fashion .txt_of_landing li{
-    margin-bottom: 5px;
-  }
 
 }
 
@@ -703,14 +695,29 @@ li {
     padding-left: 20px;
   }
 
-  .header_of_home_page .particleground{
-    height: 65vh;
+  .header_of_home_page .particleground .box_of_details_fashion .txt_of_landing{
+    font-size:1.3rem ;
+  }
+  .header_of_home_page .particleground .box_of_details_fashion .landing_btn{
+    margin-left: 40px;
   }
 
+  .header_of_home_page .particleground .box_of_fashion {
+    width: 80%;
+    left: 0%;
+    top:23vh;
+  }
+  .header_of_home_page .particleground .box_of_fashion .field_of_btn_landing{
+   padding-left: 0;
+  }
 
 }
 
 @media only screen and (max-width: 600px) {
+  .header_of_home_page .particleground .box_of_fashion {
+    width: 90%;
+    left: -5%;
+  }
 
 }
 
