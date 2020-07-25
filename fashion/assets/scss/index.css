@@ -35,13 +35,18 @@ li {
   width: 190px;
   height: 80px;
 }
-.index_page .nav_bar_index .bottom_of_menu_bar {
-  border: none;
+.index_page .nav_bar_index .bottom_of_close {
+  display: none;
 }
-.index_page .nav_bar_index .bottom_of_menu_bar:focus {
+.index_page .nav_bar_index .bottom_of_menu_bar, .index_page .nav_bar_index .bottom_of_close {
+  border: none;
+  width: 46px;
+  height: 40px;
+}
+.index_page .nav_bar_index .bottom_of_menu_bar:focus, .index_page .nav_bar_index .bottom_of_close:focus {
   outline: none;
 }
-.index_page .nav_bar_index .bottom_of_menu_bar .menu_icon {
+.index_page .nav_bar_index .bottom_of_menu_bar .menu_icon, .index_page .nav_bar_index .bottom_of_menu_bar .close_icon, .index_page .nav_bar_index .bottom_of_close .menu_icon, .index_page .nav_bar_index .bottom_of_close .close_icon {
   font-size: 1.7rem;
   color: white;
   border: 1px solid white;
@@ -50,6 +55,10 @@ li {
   position: absolute;
   top: 20px;
   right: 30px;
+}
+.index_page .nav_bar_index .bottom_of_menu_bar .close_icon, .index_page .nav_bar_index .bottom_of_close .close_icon {
+  font-size: 1.7rem;
+  padding: 5px 13px;
 }
 .index_page .content_of_index .content_of_index_box_menu {
   height: 80vh;

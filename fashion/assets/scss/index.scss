@@ -40,14 +40,22 @@ li {
       height: 80px;
     }
 
-    .bottom_of_menu_bar {
+    .bottom_of_close{
+      display: none;
+    }
+    .bottom_of_menu_bar, .bottom_of_close {
       border: none;
+      width: 46px;
+      height: 40px;
 
       &:focus {
         outline: none;
       }
 
-      .menu_icon {
+
+
+
+      .menu_icon , .close_icon{
         font-size: 1.7rem;
         color: white;
         border: 1px solid white;
@@ -56,6 +64,11 @@ li {
         position: absolute;
         top: 20px;
         right: 30px;
+      }
+
+      .close_icon{
+        font-size: 1.7rem;
+        padding: 5px 13px;
       }
     }
 
