@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b002e761-b204-47f7-bf0a-cf4eccc98e7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/contact-us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/brand-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/brand-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/brand-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/brand-list.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/brand-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/brand-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/brand-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/brand-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +88,7 @@
       <workItem from="1595499976111" duration="5975000" />
       <workItem from="1595513165946" duration="95000" />
       <workItem from="1595576310811" duration="14480000" />
-      <workItem from="1595673770198" duration="323000" />
+      <workItem from="1595673770198" duration="1980000" />
     </task>
     <servers />
   </component>
@@ -90,6 +104,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="73" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1595162576748" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595676378263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595676378263" />
     <state x="405" y="191" key="EditFileWatcherDialog" timestamp="1594901956947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

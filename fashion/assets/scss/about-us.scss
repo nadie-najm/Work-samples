@@ -328,6 +328,7 @@ body {
   background-color: rgba(0, 0, 0, 0.55);
   position: fixed;
   top: 0;
+  z-index: 1001;
 
   .modal_box {
     width: 40%;
@@ -408,6 +409,7 @@ body {
   background-color: rgba(0, 0, 0, 0.55);
   position: fixed;
   top: 0;
+  z-index: 1001;
 
   .modal_box {
     width: 40%;
@@ -486,6 +488,7 @@ body {
   background-color: rgba(0, 0, 0, 0.55);
   position: fixed;
   top: 0;
+  z-index: 1001;
 
   .search_box_content {
     width: 90%;

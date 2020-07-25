@@ -134,6 +134,7 @@ body {
   background-color: rgba(0, 0, 0, 0.55);
   position: fixed;
   top: 0;
+  z-index: 1001;
 }
 .modal_of_sign_in .modal_box {
   width: 40%;
@@ -196,6 +197,7 @@ body {
   background-color: rgba(0, 0, 0, 0.55);
   position: fixed;
   top: 0;
+  z-index: 1001;
 }
 .modal_of_sign_up .modal_box {
   width: 40%;
@@ -258,6 +260,7 @@ body {
   background-color: rgba(0, 0, 0, 0.55);
   position: fixed;
   top: 0;
+  z-index: 1001;
 }
 .search_box .search_box_content {
   width: 90%;
@@ -309,6 +312,9 @@ body {
 .sign_in_up {
   border: none;
   background-color: transparent;
+}
+.sign_in_up:focus {
+  outline: none;
 }
 
 @media only screen and (max-width: 767px) {
